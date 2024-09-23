@@ -5,7 +5,7 @@ A simple, user-friendly weather application that provides detailed current and f
 ## Screenshot 📸
 ![](./src/img/Screenshot.png)
 
-## Deployed 🌐 -> [Check out the deployed application](https://weather-app-48lb.onrender.com/)
+## Deployed 🌐 -> [Click This Link](https://weather-app-48lb.onrender.com/)
 
 ## Features ✨
 
