@@ -7,5 +7,6 @@
 rad.json
 *.g.xlf
 node_modules/
+dist/
 
 
