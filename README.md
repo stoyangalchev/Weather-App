@@ -1,10 +1,11 @@
-Got it! Here's a cleaner version of the README without directly showing the package dependencies:
-
----
-
 # Weather App ☀️🌧️
 
-A simple, user-friendly weather application that provides detailed current and forecasted weather data. Easily switch between Celsius and Fahrenheit, explore an interactive map, and enjoy a dark mode experience.
+A simple, user-friendly weather application that provides detailed current and forecasted weather data. Easily switch between Celsius and Fahrenheit, explore an interactive map.
+
+## Screenshot 📸
+![](./src/img/Screenshot.png)
+
+## Deployed 🌐 -> [Check out the deployed application](https://your-deployed-app-url.com)
 
 ## Features ✨
 
@@ -16,7 +17,7 @@ A simple, user-friendly weather application that provides detailed current and f
 - 🕒 **Forecast Day Data by Hour**: Get detailed hourly forecasts for future days.
 - 🌡️ **Celsius / Fahrenheit**: Toggle between Celsius and Fahrenheit for temperature.
 - 📈 **Temperature Chart**: Visual representation of temperature data.
-- 🌙 **Dark Mode**: Switch to dark mode for a comfortable viewing experience at night.
+
 
 ## Installation & Setup ⚙️
 
@@ -37,7 +38,7 @@ A simple, user-friendly weather application that provides detailed current and f
 
 - **Frontend**: React.js
 - **API Integration**: OpenWeather API
-- **Map Integration**: Google Maps API (`@react-google-maps/api`)
+- **Map Integration**: Google Maps API 
 - **Charts**: Chart.js, React-Chartjs-2
 - **Autocomplete**: React Places Autocomplete
 - **Styling**: Tailwind CSS
@@ -57,4 +58,3 @@ This project is licensed under the MIT License.
 
 ---
 
-Now it mentions the tools and libraries without directly showing the package list!
