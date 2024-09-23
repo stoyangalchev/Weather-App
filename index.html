@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="description" content="Check the weather data from all around the globe." />
+  <meta name="keywords"
+    content="weather forecast,weather,forecast,wind direction,climate,clouds,meteorology,precipitation" />
+  <link rel="icon" type="image/svg+xml" href="/src/Favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="robots" content="index, nofollow" />
+
+  <link href="/src/index.css" rel="stylesheet">
+  <title>Weather App</title>
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Weather-App" />
+  <meta property="og:description"
+    content="☀️Check the weather data from all around the globe 🌍. Up to two weeks of forecast. Wind direction, clouds, precipitation, temperature, humidity, pressure, and more." />
+  <meta property="og:site_name" content="Weather-App" />
+
+
+  <script>
+    window.myCallbackFunc = function () {
+      window.initOne && window.initOne()
+    }
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?&language=en&components=locality&libraries=places&callback=myCallbackFunc"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
